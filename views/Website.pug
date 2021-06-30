@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Sriracha&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <script src="../static/functions.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="/public/style.css"> -->
+    style 
+     include ../static/style.css
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <a href="#" class="anchor">Home</a>
+        <a href="#About" class="anchor">About</a>
+        <a href="#News" class="anchor">News</a>
+        <a href="#Contact" class="anchor">Contact Us</a>
+
+        <div class="dropdown">
+            <a href="#" class="anchor dropbtn inc">Dropdown <span>&#9660;</span></a>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <div class="rightnav">
+            <button class="btn">Sign Up</button>
+            <button class="btn">Log In</button>
+        </div>
+    </nav>
+    <div class="topContainer">
+        <div class="slideshow-container">
+            <div class="slides alwaysDisplay fade">
+                <img src="../static/img1.jpg" alt="">
+            </div>
+            <div class="slides fade">
+                <img src="../static/img2.jpg" alt="">
+            </div>
+            <div class="slides fade">
+                <img src="../static/img3.jpg" alt="">
+            </div>
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+    </div>
+    <div class="aboutContainer">
+        <div class="heading">
+            <h1 id="About">About Us</h1>
+        </div>
+        <div class="aboutContent">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id delectus veritatis odio nobis necessitatibus
+            architecto maxime, officiis iure at voluptate. Quis tempore blanditiis inventore quia repellat expedita
+            doloribus perspiciatis atque ab id vero sunt voluptas excepturi harum, ex aperiam nobis a adipisci.
+            Similique fugiat ducimus pariatur temporibus voluptate laboriosam dolorum expedita aliquid, nobis placeat
+            hic minus consequuntur velit at quibusdam quam, asperiores itaque beatae nihil aperiam tenetur enim sed
+            veritatis porro? Accusantium mollitia error adipisci, sunt dolore dolor est nihil qui at fugit quis
+            temporibus debitis facere esse minima ullam consequuntur culpa dolorum ducimus voluptas. Harum porro
+            temporibus maxime odit.</p>
+        </div>
+        <div class="founderBoxMain">
+            <div class="founderBox">
+                <div class="fbox">
+                    <img src="../static/Trekker1.jpg" alt="">
+                </div>
+                <h3 class="founderName">Name Surname</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia officia expedita, aliquam
+                    repellendus delectus natus fugit quisquam est placeat incidunt iste ullam quas temporibus facere
+                    nihil ipsa veniam. Laudantium modi ullam eos vel laboriosam voluptate, optio iste voluptatum at!</p>
+            </div>
+            <div class="founderBox">
+                <div class="fbox">
+                    <img src="../static/Trekker2.jpg" alt="">
+                </div>
+                <h3 class="founderName">Name Surname</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto magni vero dolorem magnam nobis iure
+                    cum commodi provident hic nemo fugit soluta debitis inventore nesciunt quod velit maiores, similique
+                    assumenda voluptatibus cupiditate non mollitia? Esse praesentium quaerat in repellendus distinctio.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="midContainer">
+        <h1 id="News" class="heading">Recent News</h1>
+        <div class="boxes" id="box1">
+            <img src="../static/img4.jpg" alt="">
+        </div>
+        <div class="boxes" id="box2">
+            <h3>Heading 3</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aperiam ducimus illum quis, nemo aliquam
+            similique nesciunt veritatis asperiores eligendi laudantium dolore, sapiente vero omnis tempore ullam
+            laboriosam Error quis consequuntur cupiditate ducimus praesentium, doloremque blanditiis nam eligendi
+            provident necessitatibus ipsam aut eveniet temporibus explicabo quos deleniti. Iusto aperiam laboriosam
+            praesentium esse inventore tenetur earum ex eum accusantium distinctio? Asperiores repudiandae rerum dolorem
+            ratione dignissimos, perspiciatis assumenda molestiae totam.
+            <a href="#">Click Here To Read Further!</a>
+        </div>
+        <div class="boxes" id="box3">
+            <h3>Heading 3</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aperiam ducimus illum quis, nemo aliquam
+            similique nesciunt veritatis asperiores eligendi laudantium dolore, sapiente vero omnis tempore ullam
+            laboriosam Error quis consequuntur cupiditate ducimus praesentium, doloremque blanditiis nam eligendi
+            provident necessitatibus ipsam aut eveniet temporibus explicabo quos deleniti. Iusto aperiam laboriosam
+            praesentium esse inventore tenetur earum ex eum accusantium distinctio? Asperiores repudiandae rerum dolorem
+            ratione dignissimos, perspiciatis assumenda molestiae totam.
+            <a href="#">Click Here To Read Further!</a>
+        </div>
+        <div class="boxes" id="box4">
+            <img src="../static/img5.jpg" alt="">
+        </div>
+        <div class="boxes" id="box5">
+            <img src="../static/img6.jpg" alt="">
+        </div>
+        <div class="boxes" id="box6">
+            <h3>Heading 3</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aperiam ducimus illum quis, nemo aliquam
+            similique nesciunt veritatis asperiores eligendi laudantium dolore, sapiente vero omnis tempore ullam
+            laboriosam Error quis consequuntur cupiditate ducimus praesentium, doloremque blanditiis nam eligendi
+            provident necessitatibus ipsam aut eveniet temporibus explicabo quos deleniti. Iusto aperiam laboriosam
+            praesentium esse inventore tenetur earum ex eum accusantium distinctio? Asperiores repudiandae rerum dolorem
+            ratione dignissimos, perspiciatis assumenda molestiae totam.
+            <a href="#">Click Here To Read Further!</a>
+        </div>
+    </div>
+    <div class="bottomContainer">
+        <div class="heading">
+            <h1 id="Contact">Contact Us</h1>
+        </div>
+        <form action="/" method="POST">
+            <div class="name">
+                <p>Name:</p> <input type="text" name="name" id="name" size="40" placeholder="Enter Your Name">
+            </div>
+            <div class="email">
+                <p>E-Mail:</p> <input type="email" name="email" id="email" size="40" placeholder="Enter Your Email">
+            </div>
+            <div>
+                <div class="msg">Your Message:</div>
+                <textarea name="msg" id="msg" cols="50" rows="15" placeholder="Write Something!"></textarea>
+            </div>
+            <button type="submit" class="btn1">Submit</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <a href="">FAQ</a>
+        <a href="">Privacy Policy</a>
+        <a href="">Contact Info</a>
+        <p>Copyright 2021 &#169;</p>
+    </footer>
+</body>
+
+</html>
